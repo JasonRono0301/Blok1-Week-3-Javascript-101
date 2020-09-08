@@ -2,7 +2,9 @@
 //Lab 2. 08-09-2020
 //Da Vinci College. Software Development.
  
-const intro = alert('U dient 3 vragen te beantwoorden.')//Een alert waarbij de gebruiker 3 vragen moet beantwoorden met een contante.
+const VRAAG = 'Vul de volgende 3 vragen in';
+alert(VRAAG);
+
 
 //Hier onder staat de code dat de gebruiker door middel van 3 promps zijn voornaam,achternaam,leeftijd kan invullen.
 var voornaam = prompt('Type hier uw voornaam in.');//Voornaam.
